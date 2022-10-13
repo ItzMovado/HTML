@@ -1,5 +1,13 @@
 img {
-    width: 150px;
+    width: 350px;
     height: auto;
   }
 
+  img {
+    border-radius: 15%;
+  }
+
+.AL{
+
+    
+}
