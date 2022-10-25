@@ -6,7 +6,7 @@ font-size: 20px;
 
 }
 
-img{
+.Foto{
 
 margin-left:  20px;
 margin-right: auto;
@@ -22,8 +22,80 @@ padding-top: 50px;
 
 h2{
 
-    margin-left:  400px;
-    margin-right: auto;
+    position: absolute;
+  top: 10px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+ 
     
 
 }
+h3{
+
+
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+   
+
+}
+.GroteText {
+
+
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+}
+
+hr {
+
+    height: 10px;
+    border: 10px solid green;
+  border-radius: 5px;
+
+}
+
+
+.FotoTwee {
+
+    
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+    
+
+}
+
+.RechtsBodem {
+  position:absolute;
+  right: -150px;
+  width: 300px;
+  bottom: 60px;
+  color: green;
+  
+
+
+
+}
+.Absoluut {
+
+  
+  position:absolute;
+  right: 155px;
+  width: 300px;
+  top: 200px;
+  color: green;
+
+}
+ 
+  
+    
