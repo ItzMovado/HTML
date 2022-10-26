@@ -1,0 +1,87 @@
+.rectangle {
+
+    line-height: 250px;
+    text-align: center;
+    height: 250px;
+    width: 500px;
+    background-color: rgb(234, 255, 0);
+    float: left;
+  }
+  .rectangleTwee {
+    line-height: 250px;
+    text-align: center;
+    height: 250px;
+    width: 500px;
+    background-color: red;
+    float: left;
+  }
+
+  .rectangleDrie {
+    line-height: 250px;
+    text-align: center;
+    height: 250px;
+    width: 500px;
+    background-color:blue;
+    float: left;
+  }
+
+  .rectangleVier {
+    line-height: 250px;
+    text-align: center;
+    float: left;
+    height: 250px;
+    width: 500px;
+    background-color:green
+
+  }
+  .rectangleVijf {
+    line-height: 250px;
+    text-align: center;
+    float: left;
+    height: 250px;
+    width: 500px;
+    background-color:white
+
+  }
+
+  .rectangleZes {
+    line-height: 250px;
+    text-align: center;
+    float: left;
+    height: 250px;
+    width: 500px;
+    background-color:purple
+
+  }
+
+  .rectangleZeven {
+    line-height: 250px;
+    text-align: center;
+    float: left;
+    height: 250px;
+    width: 500px;
+    background-color:gray
+
+  }
+
+  .rectangleAcht {
+    line-height: 250px;
+    text-align: center;
+    float: left;
+    height: 250px;
+    width: 500px;
+    background-color:rgb(251, 53, 182)
+
+  }
+
+  .rectangleNegen {
+    line-height: 250px;
+    text-align: center;
+    float: left;
+    height: 250px;
+    width: 500px;
+    background-color:orange
+
+  }
+  
+ 
