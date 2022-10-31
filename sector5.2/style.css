@@ -1,0 +1,90 @@
+.rectangle {
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 10px;
+    line-height: 30px;
+    height: 50px;
+    width: 250px;
+    background-color:green;
+    float: left;
+  }
+  .rectangleTwee {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    height: 50px;
+    width: 250px;
+    background-color: yellow;
+    float: left;
+  }
+
+  .rectangleDrie {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    height: 50px;
+    width: 250px;
+    background-color: red;
+    float: left;
+  }
+
+  .rectangleVier {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    height: 50px;
+    width: 250px;
+    background-color:blue;
+    float: left;
+
+  }
+  .rectangleVijf {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    height: 50px;
+    width: 250px;
+   
+    background-color:green;
+    float: left;
+  }
+
+  .rectangleZes {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    height: 50px;
+    width: 250px;
+   
+    background-color:yellow;
+    float: left;
+
+  }
+
+  .rectangleZeven {
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+    background-color:red;
+    text-align: center;
+    line-height: 30px;
+ 
+    height: 50px;
+    width: 250px;
+  }
+
+  .rectangleAcht {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    height: 50px;
+    width: 250px;
+    float: left;
+    background-color: blue;
+  }
