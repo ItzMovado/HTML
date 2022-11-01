@@ -1,0 +1,44 @@
+
+
+
+.Header img {
+  
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: white;
+    justify-content: left;
+  
+  }
+  
+  .Header {
+  
+    color: orange;
+    display:flex;
+    justify-content: space-between;
+    letter-spacing: 10px;
+    align-items: center;
+    width: 300px;
+    
+    
+    
+  }
+  
+
+  .Lorem{
+
+    color: orange;
+    display:flex;
+    justify-content: left;
+    letter-spacing: 10px;
+  text-align:left;
+  width: 400px;
+  height: 200px;
+
+  }
+  
+  .Two{
+
+    
+
+  }
