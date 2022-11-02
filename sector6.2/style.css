@@ -1,0 +1,14 @@
+.container {
+    position: absolute;
+    text-align: center;
+    color: white;
+  }
+  .BottomRight{
+
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: blue;
+    background-color: black;
+
+  }
