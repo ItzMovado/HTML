@@ -1,0 +1,64 @@
+.Details{
+
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+   
+    
+
+}
+
+.Banner img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 250px;
+
+}
+
+.Banner{
+
+background-color: black;
+
+}
+
+.Header{
+
+    text-align: center;
+    font-style:italic;
+    content: ""; 
+    display: block;
+    margin: 0 auto; 
+    width: 15%; 
+    padding-top: 20px; 
+    border-bottom: 1px solid black; 
+    
+}
+
+.Gender{
+
+    line-height: 2em;    
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    
+}
+#Name{
+
+
+    border: 2px solid orange;
+}
+
+#email{
+
+    border: 2px solid orange;
+
+}
+
+#password{
+
+    border: 2px solid orange;   
+
+}
