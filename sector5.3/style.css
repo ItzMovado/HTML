@@ -37,8 +37,41 @@
 
   }
   
+  .Two img{
+
+    float: right;
+    width: 100px;
+    height: 100px;
+    background: white;
+    justify-content: left;
+    
+
+  }
   .Two{
 
+    position: absolute;
+    top: 1px;
+    right: 4px;
+    color: orange;
+    display:flex;
+    justify-content: space-between;
+    letter-spacing: 10px;
+    width: 350px;
     
+  }
+
+  .LoremTwee{
+
+    color: orange;
+    display:flex;
+    justify-content: right;
+    letter-spacing: 10px;
+  text-align:right;
+  width: 400px;
+  height: 200px;
+
+  position: absolute;
+  top: 150px;
+  right: 4px;
 
   }
