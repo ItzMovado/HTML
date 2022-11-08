@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.foto1{
+    top: 0%;
+    position: fixed;
+    transition: transform .2s;
+    width: 388px;
+    height: 150px;
+    transform: .5s;
+    margin: 0 auto;
+}
+
+.foto4:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.foto2{
+    top: 0%;
+    position: fixed;
+    margin-left: 388px;
+    width: 388px;
+    height: 150px;
+}
+
+.foto3{
+    top: 0%;
+    position: fixed;
+    margin-left: 776px;
+    width: 388px;
+    height: 150px;
+}
+
+.foto4{
+    top: 0%;
+    position: fixed;
+    margin-left: 1164px;
+    width: 388px;
+    height: 293px;
+}
+
+.foto5{
+    top: 20%;
+    position: fixed;
+    width: 388px;
+    height: 150px;
+}
+
+.foto6{
+    top: 20%;
+    position: fixed;
+    margin-left: 388px;
+    width: 388px;
+    height: 150px;
+}
+
+.foto7{
+    top: 20%;
+    position: fixed;
+    margin-left: 776px;
+    width: 388px;
+    height: 150px;
+}

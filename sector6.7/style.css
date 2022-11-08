@@ -1,4 +1,7 @@
-.foto{
+.foto img{
+    
+width: 350px;
+height: 150px;
 float: left;
 position: relative;
 
