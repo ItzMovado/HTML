@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="icon.png" />
+  </head>
+  <body>
+    <div class="Banner">
+      <img src="Tiger banner.jpg" alt="Banner" />
+    </div>
+    <div class="Header">
+      <h1>ContactFormulier</h1>
+    </div>
+
+    <div class="Details">
+      <label for="email">Name:</label>
+      <input type="Name" id="Name" name="Name" />
+
+      <label for="email">email:</label>
+      <input type="email" id="email" name="email" />
+
+      <label for="Password">Password:</label>
+      <input type="password" id="password" name="password" />
+      <div class="Gender">
+        <form>
+          <label for="gender">Gender:</label>
+          <select name="gender">
+            <option value="">Please select one…</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="non-binary">Non-Binary</option>
+            <option value="other">Other</option>
+          </select>
+        </form>
+      </div>
+      <label for="Media">Media:</label>
+
+      <form action="./submit.html">
+        <input
+          type="checkbox"
+          id="vehicle1"
+          name="vehicle1"
+          value="nieuwsbbrief"
+        />
+        <label for="vehicle1"> nieuwsbrief</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+        <label for="vehicle2"> Mailing</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+        <label for="vehicle3"> Post </label><br /><br />
+        <input type="submit" value="Stuur me op !" />
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: white;
+  }
+.square {
+    
+    background-color: red;
+    width: 50%;
+    height: 45%;
+  } 
+  
+  
+  @media screen and (min-width: 480px) {
+    .square {
+    
+        background-color: blue;}
+    body {background-color:white;}
+}
+@media screen and (min-width: 600px) {
+    .square {
+    
+        background-color: green;}
+    body {background-color:white;}
+}
+@media screen and (min-width: 900px) {
+    .square {
+    
+        background-color: yellow;}
+    body {background-color:white;}
+}
+@media screen and (min-width: 1200px) {
+    .square {
+    
+        background-color: red;}
+    body {background-color: white;}
+}
