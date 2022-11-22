@@ -1,0 +1,64 @@
+*::before,
+*,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+
+
+}
+
+html {
+
+    box-sizing: border-box;
+
+}
+
+.body {
+
+    min-height: 100vh;
+
+
+}
+
+
+.Box {
+
+    background-color: bisque;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.Container {
+    flex-grow: 1;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    border: 2px solid black;
+    margin: 10px;
+
+
+}
+
+.item {
+
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 70px;
+    border: 1px dashed black;
+}
+
+
+
+
+.blockeen {
+
+
+    background-color: purple;
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *::before,
+      *,
+      *::after {
+        padding: 0;
+        margin: 0;
+        box-sizing: inherit;
+      }
+
+      html {
+        box-sizing: border-box;
+      }
+
+      .bodycontainer {
+        display: flex;
+
+        border: 2px solid black;
+      }
+      .item {
+        border: 2px dashed black;
+      }
+      .bisque {
+        background-color: bisque;
+      }
+      .green {
+        background-color: green;
+      }
+
+      .pink {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body class="bodycontainer">
+    <div class="item bisque">A</div>
+    <div class="item green">B</div>
+    <div class="item pink">C</div>
+    <div class="item">D</div>
+    <div class="item bisque">E</div>
+    <div class="item green">F</div>
+    <div class="item pink">G</div>
+    <div class="item">H</div>
+    <div class="item bisque">I</div>
+    <div class="item green">J</div>
+  </body>
+</html>
