@@ -33,6 +33,19 @@ html {
 
 }
 
+
+.titel h1 {
+
+
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+
+
+
+
 .Container {
     flex-grow: 1;
     background-color: pink;
@@ -41,22 +54,73 @@ html {
     font-style: italic;
     border: 2px solid black;
     margin: 10px;
-
-
+    flex-basis: 50%;
 }
+
+
 
 .item {
 
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 70px;
+    flex-basis: 65px;
     border: 1px dashed black;
+
 }
 
 
 
 
 .blockeen {
+
+
+    background-color: purple;
+
+}
+
+
+
+
+.blockdrie {
+
+    background-color: purple;
+
+}
+
+
+
+.blockvijf {
+
+
+    background-color: purple;
+}
+
+
+.blockzeven {
+
+    background-color: purple;
+
+
+}
+
+
+.blocknegen {
+
+
+    background-color: purple;
+
+}
+
+
+.blockelf {
+
+
+    background-color: purple;
+
+}
+
+
+.blockdertien {
 
 
     background-color: purple;
