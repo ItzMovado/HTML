@@ -1,0 +1,49 @@
+.container {
+    font-family: sans-serif;
+    background-color: gray;
+    font-size: 30px;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 40px;
+    width: 380px;
+    text-align: center;
+    line-height: 100px;
+
+
+}
+
+.item1 {
+    background-color: purple;
+
+}
+
+.item2 {
+    background-color: orange;
+
+}
+
+
+.item3 {
+    background-color: green;
+
+}
+
+.item4 {
+    background-color: bisque;
+
+}
+
+
+.item5 {
+
+    background-color: plum;
+}
+
+
+.item6 {
+    background-color: blue;
+
+
+}

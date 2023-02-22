@@ -1,0 +1,61 @@
+html {
+    background: wheat;
+    font-family: courier;
+    text-transform: uppercase;
+}
+
+.Yahtzee {
+    margin-bottom: -15px;
+    padding: 10px;
+    font-size: 50px
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    width: 500px;
+}
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    text-align: center;
+}
+
+.grid-itemB {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.grid-item:nth-child(1) {
+    width: 300px;
+    line-height: 70px;
+}
+
+.grid-item:nth-child(2) {
+    width: 250px;
+    line-height: 70px;
+}
+
+.grid-item:nth-child(3) {
+    width: 125px;
+}
+
+.Lower {
+    line-height: 10px;
+    margin-left: 10px
+}
+
+.grid-itemB:nth-child(2) {
+    width: 250px;
+    line-height: 30px
+}

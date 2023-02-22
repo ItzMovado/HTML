@@ -1,0 +1,28 @@
+html {
+    background-color: wheat;
+    text-align: center;
+}
+
+.flex-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px dotted black;
+    width: 800px;
+    background-color: rgb(235, 179, 213);
+}
+
+.flex-child {
+    font-family: courier;
+    font-size: 10px;
+    line-height: 10px;
+    ;
+    border: 2px dotted black;
+    padding: 5px;
+    width: 900px;
+
+}
+
+.p1 {
+    background-color: rgb(229, 1, 229);
+    border: 2px solid black
+}
