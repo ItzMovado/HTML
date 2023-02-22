@@ -367,13 +367,3 @@ span {
     background: #000;
     border: 1px solid #4070f4;
 }
-
-
-@media screen and (max-width: 995px),
-screen and (max-height: 700px) {
-    .herder {
-
-        background-color: red;
-        font-size: 3em;
-    }
-}
