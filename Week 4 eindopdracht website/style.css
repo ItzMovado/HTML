@@ -80,7 +80,7 @@ img {
 
 .product a :hover {
     transform: scale(1.5);
-
+    filter: drop-shadow(0 0 0.75rem rgb(13, 255, 0));
 }
 
 @media only screen and (max-width: 1000px) {
@@ -99,6 +99,8 @@ footer {
 
     color: #ffffff;
     margin-top: 50px;
+    padding: 10px;
+    text-align: center;
 }
 
 .services {
@@ -108,28 +110,19 @@ footer {
     color: white;
     text-align: center;
     width: 600px;
-    background-color: #63c7d5;
+    background-color: rgba(60, 90, 94, 0.793);
     margin: auto;
+    margin-top: 10px;
+    border-radius: 25px;
+    border-style: outset;
+    padding: 12px;
 
 }
 
-.second {
-    color: white;
-    text-align: center;
-    width: 600px;
-    background-color: #63c7d5;
-    margin: auto;
-
-}
-
-.third {
-
-    color: white;
-    text-align: center;
-    width: 600px;
-    background-color: #63c7d5;
-    margin: auto;
-
+a {
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 
@@ -143,6 +136,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .container {
@@ -151,12 +145,15 @@ body {
     border-radius: 6px;
     padding: 20px 60px 30px 40px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    justify-content: space-around;
+
+
 }
 
 .container .content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+
 }
 
 .container .content .left-side {
